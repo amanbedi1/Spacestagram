@@ -1,0 +1,30 @@
+.container{
+  height:100%;
+  margin:10px 20px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin:auto;
+  width:80%;
+}
+.main{
+  display: flex;
+  flex-direction: row;
+}
+.scroll-style {
+all:initial;
+scrollbar-width: none !important;  
+-ms-overflow-style: none !important; 
+}
+.scroll-style::-webkit-scrollbar {  
+width: 0 !important;
+height: 0 !important;
+}
+@media screen and (max-width: 700px){
+  .container{
+    width:95%;
+  }
+}
+
+
+  
